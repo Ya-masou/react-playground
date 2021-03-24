@@ -2,6 +2,9 @@
   padding: 20px;
 }
 
-h2.section-title {
+.section {
+  margin-bottom: 50px;
+}
+.section h2.title {
   border-bottom: 1px solid #ddd;
 }
