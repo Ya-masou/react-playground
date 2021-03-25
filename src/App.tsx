@@ -2,6 +2,7 @@ import './App.css';
 import Characters82 from "./playgroundComponents/8_2/Characters"
 import Characters83 from "./playgroundComponents/8_3/Characters"
 import Counter from "./playgroundComponents/8_3/Counter"
+import CountDown from "./playgroundComponents/8_4/CountDown"
 
 function App() {
   return (
@@ -15,6 +16,10 @@ function App() {
         <h2 className="title">8-3 クラスコンポーネントで学ぶ State </h2>
         <Characters83 />
         <Counter />
+      </div>
+      <div className="section">
+        <h2 className="title">8-4 コンポーネントのライフサイクル</h2>
+        <CountDown />
       </div>
     </div>
   );
