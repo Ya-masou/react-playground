@@ -1,0 +1,46 @@
+.container {
+  margin-bottom: 30px;
+}
+
+.school-name {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.name-list {
+  display: flex;
+  margin: 20px 0;
+}
+
+.name-list__item {
+  margin-right: 10px;
+  padding: 5px;
+  border: solid 1px #eee;
+}
+
+.name-list__item--name {
+  font-weight: 600;
+}
+.name-list__item--meta {
+  font-size: .8rem;
+  color: #888;
+}
+.name-list__item--meta > div {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.counter {
+  display: flex;
+  padding: 10px;
+  border: 1px solid #eee;
+}
+
+.counter__result {
+  margin-right: 20px;
+}
+
+.counter__result--count {
+  font-size: 1.5rem;
+  font-weight: 600;
+}

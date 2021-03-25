@@ -1,5 +1,7 @@
 import './App.css';
-import Characters from "./playgroundComponents/8_2/Characters"
+import Characters82 from "./playgroundComponents/8_2/Characters"
+import Characters83 from "./playgroundComponents/8_3/Characters"
+import Counter from "./playgroundComponents/8_3/Counter"
 
 function App() {
   return (
@@ -7,11 +9,12 @@ function App() {
       <p>React を勉強するために検証用で作成したコンポーネントをここに並べていく</p>
       <div className="section">
         <h2 className="title">8-2 コンポーネントと Props </h2>
-        <Characters />
+        <Characters82 />
       </div>
       <div className="section">
         <h2 className="title">8-3 クラスコンポーネントで学ぶ State </h2>
-        <Characters />
+        <Characters83 />
+        <Counter />
       </div>
     </div>
   );
