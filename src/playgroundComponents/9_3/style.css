@@ -1,0 +1,14 @@
+.timer {
+  display: flex;
+  padding: 10px;
+  border: 1px solid #eee;
+}
+
+.timer__result {
+  margin-right: 20px;
+}
+
+.timer__result--time {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
