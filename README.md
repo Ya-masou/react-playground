@@ -1,5 +1,16 @@
 # React 個人学習するための検証用アプリケーション
 
+## 概要
+
+React の API を検証するためのアプリケーション。
+[『りあクト！』](https://oukayuka.booth.pm/) の内容に従い検証する。
+
+### src ディレクトリ内の説明
+
+* `src/playgroundComponents/` に『りあクト！』の各章ごとにディレクトリを作成する
+* 各章ごとのディレクトリに検証用のコンポーネントを作成する
+* 作成したコンポーネントは `src/App.tsx` で使用する
+
 ## Available Scripts
 
 In the project directory, you can run:
